@@ -1,79 +1,69 @@
-!DOCTYPE html>
-  <html lang="en-US">
-      <head>
-          <title>My first landing page</title>
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+      <title>My first landing page</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+    </head>
 
-          <meta charset="UTF-8">
-          <link rel="stylesheet" href="style.css">
-      </head>
-      <body>
+    <body>
         <div class="container">
-            <div class="section-1 section"></div>
-              <img src="#INSERIRE QUI LOGO" alt="Page logo">
+            <div class="sect1 section"></div>
+                <img src="#INSERIRE QUI LOGO" alt="Page logo">
+                         
+                <ul class="top-links"><!--add list class inline, removing markers in CSS-->
+                    <li><a href="" class="secondary-text">header link one</a></li>
+                    <li><a href="" class="secondary-text">header link two</a></li>
+                    <li><a href="" class="secondary-text">header link three</a></li>
+                </ul>
 
-               
-               <!--add list class inline, removing markers in CSS-->
-
-            <ul>
-              <li><a href="" class="headlinks secondary-text">header link one</a></li>
-              <li><a href="" class="headlinks secondary-text">header link two</a></li>
-              <li><a href="" class="headlinks secondary-text">header link three</a></li>
-            </ul>
-
-              <h1>This website is awesome</h1>
-              <p class="#presentation subtext"> this is the website subtext </p>
-              <button class="button1">Sign up</button>
-            <div class= "large-image">
-              <img src="#" alt="#placeholder for header image">
+                <h1>This website is awesome</h1>
+                <p class="#presentation subtext"> this is the website subtext </p>
+                <button class="button1">Sign up</button>  
+                <img class="large-img" src="#" alt="#placeholder for header image">
             </div>
 
                             <!--as for now 1h-->
 
 
 
-            <div class="section-2 section"></div>
+            <div class="sect2 section"></div>
               <h2>Some random information</h2>
               
 
-                <ul style="list-style-type:none" >
-                    <li><img class="img-sect2"src="#pic1" alt="">
-                      <p>subtext1 </p></li>
+                <ul class="nav"> <!--changed <li> to <li class> to remove <p>, remember to add .thumbcaption "block" stiling-->
+                    <li class=thumbcaption><img src="" alt="masha">caption1</li>
 
-                    <li><img class="img-sect2"src="#pic2" alt="">
-                      <p>subtext2 </p></li>
+                    <li class=thumbcaption><img src="" alt="bear">caption2</li>
 
-                    <li><img class="img-sect2"src="#pic3" alt="">
-                      <p>subtext3 </p></li>
+                    <li class=thumbcaption><img src="" alt="panda">caption3</li>
 
-                    <li><img class="img-sect2"src="#pic4" alt="">
-                      <p>subtext4 </p></li>
+                    <li class=thumbcaption><img src="" alt="penguin">caption4</li>
                 </ul>                    
+            </div>  
               
-              <img class="img-sect2"src="#pic2" alt="">
-              <img class="img-sect2"src="#pic3" alt="">
-              <img class="img-sect2"src="#pic4" alt="">
 
-
-
-            <div class="section-3 section">
-
+            <div class="sect3 section">
+                <p class="quote">this is an italic quote</p>
+                <p class="quoter">i am the quoted</p>
 
             </div>
 
 
 
-            <div class="section-4 section">
-
+            <div class="sect4 section">
+                <h4>Call to action! It's time!</h4> <!--or something like h4-->
+                <p class=order>sign up on that button</p>
+                <button>Sign up</button> <!--yet to know if i can style it differently from the first one just adding .sect4.button-->
             </div>
 
-            <div class="footer section">
-
+            </div class= "section">
+                <footer>Copyright © Liuk Project 2022</footer>
             </div>
-
             
         </div>
-        </div>
-      </body>
+        
+    </body>
   
   
   
@@ -82,5 +72,5 @@
   
   
   
-  </html>
+</html>
   
