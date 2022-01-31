@@ -1,46 +1,78 @@
+* { border:2px solid red;} 
+
 body {
     padding:0px;
 }
-
-.header { /*serve per dopo per il Logo*/
-
-}
-.blu {background-color: #1f2937;
-}
-.links { float:right;
+.sec1 {background-color: #1f2937;
     
 }
-.opening {display:inline-flex;
-        justify-content:center;
-        background-color: yellow;
-            }
+
+    .top { /*background-color: rgba(255, 0, 0, 0.5);*/
+            display: flex;
+            padding: 10px 100px;
+            box-sizing: border-box;
+            align-items: center;
+            flex-grow: 1;
+            justify-content: space-between;
+}
+        .links { display: flex;  
+            box-sizing: border-box;
+            background-color: yellow;
+            gap:10px;}
+
+            .lnk {padding: 15px;}
+
+    .opening {display:flex;
+            box-sizing: border-box;
+            padding: 10px 50px 25px 50px;
+            justify-content:center;
+            gap: 100px;}
+            .welcome_text{height: auto;
+                }
 
 
-.bianco { 
+/* p h1 {margin: 0px} */
+
+
+.sec2 {  display: flex;
     background-color: white;
     justify-items: center;
-    align-content: center;
-        }
+    align-content: center;}
 
-        .people{ display: flex; /*fatto, questa è la box delle box di foto+caption*/
+
+    .people{ display: flex; /*fatto, questa è la box delle box di foto+caption*/
             flex-direction: row;
             justify-content:center;
-            gap: 10px;
-         
-                }
+            gap: 35px;}
         
-        .avatars { /*questo è foto+ caption a colonna con testo centrato*/
+        .bio { /*questo è foto+ caption a colonna con testo centrato*/
             flex-flow: column wrap;
             inline-size: 100px;
             align-items:center;
             justify-content: baseline;}
 
-.grigio { display: flex;
-    background-color: #E5E7EB;
+            .pic {border: 3px solid #3882f6;
+                border-radius: 15px }
+            .caption{text-align: center;}
+
+
+.sec3 { display: flex;
+        flex-grow: 1;
+        background-color: gray;
          justify-content: center;
          align-content: center;
          }
-.Quote{
-    width: 50%;
-    height: 10%;
+
+    .Quote{
+        width: 50%;
+         height: 10%;}
+
+.sec4 { display: flex;
+     background-color: black;
+    justify-content: center;
 }
+
+    .subscribe_box { background-color: lightcoral;
+        display: inline-flex;
+        
+    }
